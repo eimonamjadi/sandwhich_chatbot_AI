@@ -501,7 +501,7 @@ if username:
                   })
             st.session_state.append = True
         st.write("Order updated! Would you like to order more?")
-        st.write(f"Your order so far{st.session_state.order_details}")
+        
         col5, col6 = st.columns(2) # two choices
         with col5:
             if st.button("Yes"): # Will restart to the very first step where they pick a new sandwich/meat
