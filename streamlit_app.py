@@ -587,4 +587,4 @@ if username:
         # st.write(f"Your order so far{st.session_state.order_details}") # check nothing has duplicated for admin only
         order_summary = generate_summary(username, st.session_state.order_details, st.session_state.combo) # use AI to generate the summary
         st.write(order_summary) # 'print' the summary
-        st.write("Thank you for your order!")
+        #st.write("Thank you for your order!")
